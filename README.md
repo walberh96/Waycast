@@ -1,11 +1,12 @@
 # Waycast
 
-Waycast is a cross-platform TUI “script package manager” that organizes, validates, installs dependencies for, and runs scripts as shareable **script packages**. Each package includes a generated `manifest.json` that describes how to run the script, what it depends on, and how it should be validated.
+Waycast is a cross-platform TUI “script package manager” **written in Rust** that organizes, validates, installs dependencies for, and runs scripts as shareable **script packages**. Each package includes a generated `manifest.json` that describes how to run the script, what it depends on, and how it should be validated.
 
 ---
 
 ## Features
 
+* **Written in Rust**
 * **Cross-platform:** Windows, Linux, macOS
 * **TUI-first workflow:** browse, search, and run scripts without leaving the terminal
 * **Wizard-based package creation:** add scripts through prompts (no manual manifest writing required)
@@ -200,16 +201,6 @@ Example:
 
 ---
 
-## Roadmap Ideas
-
-* Script notes editor + per-package docs viewer
-* Import/export bundles (zip) for sharing packages
-* Git-backed package sources (optional)
-* Profiles (different “script libraries” per machine/use case)
-* Better dependency providers per OS (winget/choco/scoop, apt/dnf/pacman, brew)
-
----
-
 ## License
 
-Choose a license (MIT/Apache-2.0 recommended) and add it here.
+MIT License.
